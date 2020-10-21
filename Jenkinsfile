@@ -1,7 +1,7 @@
 pipeline {
-    agent { label 'SlaveSelenoid' }
+    agent any
     tools {
-        maven 'Maven'
+        maven 'maven'
         allure 'allure'
     }
     stages {
